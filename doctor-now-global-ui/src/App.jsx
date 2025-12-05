@@ -19,7 +19,7 @@ import {
   ChevronUp 
 } from 'lucide-react';
 
-const WHATSAPP_LINK = "https://wa.me/18674694902";
+const WHATSAPP_LINK = "https://wa.me/12232137013";
 
 // Custom Logo Component based on the user's uploaded image (Blue Globe with White Cross)
 const BrandLogo = ({ className }) => (
@@ -128,10 +128,6 @@ const App = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-900 via-indigo-800 to-blue-900 opacity-95"></div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 lg:py-40 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-800/50 border border-indigo-700/50 backdrop-blur-sm mb-8 animate-fade-in-up">
-            <Clock className="h-4 w-4 text-emerald-400" />
-            <span className="text-indigo-100 text-sm font-medium">Wait time: 5 mins</span>
-          </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
             Connecting You to Care, <br className="hidden md:block" />
