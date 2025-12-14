@@ -366,9 +366,7 @@ export default function InvestorPitchPage() {
             <GrowthSection />
             <TacticsSection />
             <FundingSection />
-            <footer className="bg-slate-900 text-slate-500 py-8 text-center text-sm border-t border-slate-800">
-                &copy; 2025 E-Konsulta Strategic Planning. Confidential.
-            </footer>
+            {/* Footer moved to App layout to avoid duplicates */}
         </div>
     );
 }

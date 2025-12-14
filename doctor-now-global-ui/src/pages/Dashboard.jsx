@@ -300,12 +300,7 @@ export default function DashboardPage() {
             <StrategicPillars />
             <Dashboard />
 
-            <footer className="max-w-7xl mx-auto px-6 py-8 border-t border-slate-200 mt-12">
-                <div className="flex flex-col md:flex-row justify-between items-center text-slate-400 text-sm">
-                    <p>&copy; 2026 E-Konsulta® Strategic Planning | by Jasper Jamir.</p>
-                    <p>Confidential Internal Document</p>
-                </div>
-            </footer>
+            {/* Footer moved to App layout to avoid duplicates */}
         </div>
     );
 }
