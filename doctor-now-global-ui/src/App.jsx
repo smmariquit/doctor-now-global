@@ -20,7 +20,7 @@ import {
   ChevronUp 
 } from 'lucide-react';
 
-const WHATSAPP_LINK = "https://wa.me/12232137013";
+const WHATSAPP_LINK = "https://wa.me/639696031992";
 
 const BrandLogo = ({ className }) => (
   <svg 
