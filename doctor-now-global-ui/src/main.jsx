@@ -5,6 +5,8 @@ import './index.css'
 import App from './App.jsx'
 import Home from './pages/Home.jsx'
 import AboutUs from './pages/AboutUs.jsx'
+import HowItWorks from './pages/HowItWorks.jsx'
+import FAQ from './pages/FAQ.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +15,8 @@ createRoot(document.getElementById('root')).render(
         <Route element={<App />}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/faq" element={<FAQ />} />
         </Route>
       </Routes>
     </BrowserRouter>

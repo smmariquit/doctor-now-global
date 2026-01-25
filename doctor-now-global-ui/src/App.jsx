@@ -69,17 +69,17 @@ export default function App() {
       <nav className="bg-white shadow-sm sticky top-0 z-50 border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
-            <div className="flex items-center gap-3">
+            <Link to="/" className="flex items-center gap-3">
               <div className="bg-white rounded-full">
                 <BrandLogo className="h-10 w-10" />
               </div>
               <span className="text-xl font-bold text-slate-900 tracking-tight">DOCTOR NOW GLOBAL</span>
-            </div>
+            </Link>
             
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#services" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">Services</a>
-              <a href="#how-it-works" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">How It Works</a>
-              <a href="#faq" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">FAQ</a>
+              <a href="/#services" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">Services</a>
+              <Link to="/how-it-works" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">How It Works</Link>
+              <Link to="/faq" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">FAQ</Link>
               <Link to="/about" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">About Us</Link>
               <a 
                 href={WHATSAPP_LINK}
@@ -102,9 +102,9 @@ export default function App() {
         {isMenuOpen && (
           <div className="md:hidden bg-white border-b border-slate-100">
             <div className="px-4 pt-2 pb-4 space-y-1">
-              <a href="#services" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-indigo-600 hover:bg-slate-50">Services</a>
-              <a href="#how-it-works" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-indigo-600 hover:bg-slate-50">How It Works</a>
-              <a href="#faq" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-indigo-600 hover:bg-slate-50">FAQ</a>
+              <a href="/#services" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-indigo-600 hover:bg-slate-50">Services</a>
+              <Link to="/how-it-works" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-indigo-600 hover:bg-slate-50">How It Works</Link>
+              <Link to="/faq" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-indigo-600 hover:bg-slate-50">FAQ</Link>
               <Link to="/about" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-indigo-600 hover:bg-slate-50">About Us</Link>
               <div className="pt-4">
                  <a 
