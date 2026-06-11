@@ -1,3 +1,5 @@
+// doctor-now-global-ui/src/pages/Dashboard.jsx
+
 import React, { useState } from 'react';
 import {
     Activity,

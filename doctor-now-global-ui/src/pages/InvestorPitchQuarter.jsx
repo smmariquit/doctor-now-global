@@ -1,3 +1,5 @@
+// doctor-now-global-ui/src/pages/InvestorPitchQuarter.jsx
+
 import React from 'react';
 import {
     Stethoscope,

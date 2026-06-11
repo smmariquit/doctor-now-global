@@ -1,3 +1,5 @@
+// doctor-now-global-ui/src/App.jsx
+
 import React, { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import { 

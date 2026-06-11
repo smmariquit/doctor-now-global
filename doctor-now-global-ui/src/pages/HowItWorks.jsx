@@ -1,3 +1,5 @@
+// doctor-now-global-ui/src/pages/HowItWorks.jsx
+
 import React from 'react';
 import { 
   MessageCircle, 
