@@ -186,25 +186,25 @@ const OKRRow = ({ data }) => {
                 <div className="flex gap-1 shrink-0">
                     <div className="flex flex-col items-center">
                         <span className="text-[10px] font-bold text-slate-400 mb-1">P</span>
-                        <div className="w-16 h-8 rounded bg-slate-50 border border-slate-200 flex items-center justify-center text-xs font-medium text-slate-700" title="Process Owner">
+ <div className="w-16 h-8 rounded bg-slate-50 border border-slate-200 flex items-center justify-center text-xs font-medium text-slate-700" title="Process Owner">
                             {data.pace.P}
                         </div>
                     </div>
                     <div className="flex flex-col items-center">
                         <span className="text-[10px] font-bold text-red-400 mb-1">A</span>
-                        <div className="w-16 h-8 rounded bg-red-50 border border-red-100 flex items-center justify-center text-xs font-bold text-red-700" title="Accountable">
+ <div className="w-16 h-8 rounded bg-red-50 border border-red-100 flex items-center justify-center text-xs font-bold text-red-700" title="Accountable">
                             {data.pace.A}
                         </div>
                     </div>
                     <div className="flex flex-col items-center">
                         <span className="text-[10px] font-bold text-slate-400 mb-1">C</span>
-                        <div className="w-16 h-8 rounded bg-slate-50 border border-slate-200 flex items-center justify-center text-xs font-medium text-slate-500" title="Consulted">
+ <div className="w-16 h-8 rounded bg-slate-50 border border-slate-200 flex items-center justify-center text-xs font-medium text-slate-500" title="Consulted">
                             {data.pace.C}
                         </div>
                     </div>
                     <div className="flex flex-col items-center">
                         <span className="text-[10px] font-bold text-slate-400 mb-1">E</span>
-                        <div className="w-16 h-8 rounded bg-slate-50 border border-slate-200 flex items-center justify-center text-xs font-medium text-slate-500" title="Execute">
+ <div className="w-16 h-8 rounded bg-slate-50 border border-slate-200 flex items-center justify-center text-xs font-medium text-slate-500" title="Execute">
                             {data.pace.E}
                         </div>
                     </div>

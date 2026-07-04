@@ -27,8 +27,7 @@ export default function HowItWorks() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">How It Works</h1>
           <p className="max-w-2xl mx-auto text-lg text-slate-600 leading-relaxed">
-            Getting quality healthcare shouldn't be complicated. We've made it simple — 
-            just three easy steps to connect with a licensed doctor.
+ Getting quality healthcare shouldn't be complicated. We've made it simple:             just three easy steps to connect with a licensed doctor.
           </p>
         </div>
       </section>
@@ -45,7 +44,7 @@ export default function HowItWorks() {
                 { 
                   step: 1, 
                   title: "Message us on WhatsApp", 
-                  desc: "Tell us what you're feeling — no forms, no hassle. Just send a message describing your symptoms or concerns.", 
+ desc: "Tell us what you're feeling: no forms, no hassle. Just send a message describing your symptoms or concerns.", 
                   icon: <MessageCircle className="w-8 h-8" />,
                   details: [
                     "Available 24/7",
@@ -67,7 +66,7 @@ export default function HowItWorks() {
                 { 
                   step: 3, 
                   title: "Receive Care Instantly", 
-                  desc: "Get medical guidance, prescriptions, referrals, or certificates — delivered right to your chat.", 
+ desc: "Get medical guidance, prescriptions, referrals, or certificates: delivered right to your chat.", 
                   icon: <Heart className="w-8 h-8" />,
                   details: [
                     "Digital prescriptions",
@@ -108,7 +107,7 @@ export default function HowItWorks() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">Why WhatsApp?</h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              We chose WhatsApp because it's the easiest, most accessible way to connect — no apps to download, no accounts to create.
+ We chose WhatsApp because it's the easiest, most accessible way to connect: no apps to download, no accounts to create.
             </p>
           </div>
           

@@ -30,7 +30,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/hero-image.jpg')] bg-center bg-cover" aria-hidden="true"></div>
         <div className="absolute inset-0 bg-white/70"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-tight">Trusted Medical Care for Foreigners in the Philippines—In Minutes, Not Hours.</h1>
+ <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-tight">Trusted Medical Care for Foreigners in the Philippines—In Minutes, Not Hours.</h1>
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-slate-600 mb-10 leading-relaxed">Living abroad shouldn’t mean navigating confusing systems, unfamiliar medications, or language barriers when you’re not feeling well.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white bg-emerald-600 rounded-md hover:bg-emerald-700">
@@ -48,13 +48,13 @@ export default function Home() {
               <ShieldCheck className="h-6 w-6 text-indigo-600" />
             </div>
             <h2 className="text-3xl font-bold text-slate-900 mb-6">How Doctor Now Is Different</h2>
-            <p className="text-lg text-slate-600 leading-relaxed">Living abroad shouldn't mean struggling to find care you trust. The first person you speak to is a certified doctor — fast, easy, and in clear English — so you can feel safe, supported, and cared for.</p>
+ <p className="text-lg text-slate-600 leading-relaxed">Living abroad shouldn't mean struggling to find care you trust. The first person you speak to is a certified doctor: fast, easy, and in clear English: so you can feel safe, supported, and cared for.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {[
               { icon: <Clock className="h-6 w-6 text-emerald-500" />, title: "Instant Consultations", desc: "No queues. No travel. No waiting rooms. Just fast access to a real doctor who listens." },
-              { icon: <UserCheck className="h-6 w-6 text-emerald-500" />, title: "English-Speaking Physicians", desc: "Clear communication, no misunderstandings, and care that feels familiar — just like back home." },
+ { icon: <UserCheck className="h-6 w-6 text-emerald-500" />, title: "English-Speaking Physicians", desc: "Clear communication, no misunderstandings, and care that feels familiar: just like back home." },
               { icon: <FileText className="h-6 w-6 text-emerald-500" />, title: "Valid Documents", desc: "Receive the documents you need for medication, work, travel, or specialist care." },
               { icon: <Heart className="h-6 w-6 text-emerald-500" />, title: "Warm, Human Support", desc: "Compassionate, respectful, and patient-focused care that treats you like a person, not a number." }
             ].map((feature, idx) => (
@@ -137,9 +137,9 @@ export default function Home() {
             <div className="hidden md:block absolute top-12 left-0 right-0 h-0.5 bg-slate-100 z-0"></div>
             <div className="grid md:grid-cols-3 gap-12 relative z-10">
               {[
-                { step: 1, title: "Message us on WhatsApp", desc: "Tell us what you’re feeling — no forms, no hassle.", icon: <MessageCircle className="w-6 h-6" /> },
+ { step: 1, title: "Message us on WhatsApp", desc: "Tell us what you’re feeling: no forms, no hassle.", icon: <MessageCircle className="w-6 h-6" /> },
                 { step: 2, title: "Get Matched (5-10 mins)", desc: "A licensed, English-speaking physician joins the chat.", icon: <UserCheck className="w-6 h-6" /> },
-                { step: 3, title: "Receive Care Instantly", desc: "Guidance, prescriptions, referrals, or certificates — right away.", icon: <Heart className="w-6 h-6" /> }
+ { step: 3, title: "Receive Care Instantly", desc: "Guidance, prescriptions, referrals, or certificates: right away.", icon: <Heart className="w-6 h-6" /> }
               ].map((item, idx) => (
                 <div key={idx} className="flex flex-col items-center bg-white">
                   <div className="w-24 h-24 bg-white border-4 border-slate-50 rounded-full flex items-center justify-center mb-6 shadow-sm">
@@ -164,7 +164,7 @@ export default function Home() {
           </div>
           <div className="max-w-4xl mx-auto">
             <ul className="space-y-4 text-lg text-slate-800">
-              <li className="p-5 rounded-xl bg-slate-50 border border-slate-100">Medical care should start with a doctor — not a system</li>
+ <li className="p-5 rounded-xl bg-slate-50 border border-slate-100">Medical care should start with a doctor: not a system</li>
               <li className="p-5 rounded-xl bg-slate-50 border border-slate-100">Speed matters when accessing care, not when making clinical decisions</li>
               <li className="p-5 rounded-xl bg-slate-50 border border-slate-100">Trust is more important than growth</li>
               <li className="p-5 rounded-xl bg-slate-50 border border-slate-100">Doctors are professionals, not throughput</li>

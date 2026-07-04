@@ -20,7 +20,7 @@ const Privacy = () => {
           <h2 className="text-xl font-semibold text-slate-900 pt-4">What we collect</h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>Contact details you provide (name, email, phone, WhatsApp).</li>
-            <li>Health information shared during consultations — handled under applicable medical privacy rules.</li>
+ <li>Health information shared during consultations: handled under applicable medical privacy rules.</li>
             <li>Payment and appointment metadata processed by our payment and scheduling providers.</li>
           </ul>
           <h2 className="text-xl font-semibold text-slate-900 pt-4">What we do not do</h2>
