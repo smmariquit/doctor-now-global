@@ -139,6 +139,10 @@ export default function App() {
                 <div className="text-sm text-slate-600">
                   © {new Date().getFullYear()} Doctor Now Global. All rights reserved.
                 </div>
+                <div className="text-sm text-slate-500 flex gap-4">
+                  <a href="/privacy" className="hover:text-slate-700">Privacy</a>
+                  <a href="/terms" className="hover:text-slate-700">Terms</a>
+                </div>
               </div>
             </div>
           </footer>

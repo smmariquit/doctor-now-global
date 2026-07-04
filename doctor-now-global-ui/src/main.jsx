@@ -9,6 +9,8 @@ import Home from './pages/Home.jsx'
 import AboutUs from './pages/AboutUs.jsx'
 import HowItWorks from './pages/HowItWorks.jsx'
 import FAQ from './pages/FAQ.jsx'
+import Privacy from './pages/Privacy.jsx'
+import Terms from './pages/Terms.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,6 +21,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/about" element={<AboutUs />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
         </Route>
       </Routes>
     </BrowserRouter>
