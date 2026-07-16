@@ -27,7 +27,7 @@ const PitchSection = () => (
 
         <div className="max-w-7xl mx-auto px-6 py-20 relative z-10">
             <div className="flex items-center gap-2 mb-8">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-teal-500 rounded-lg flex items-center justify-center text-white">
+                <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white">
                     <Stethoscope size={24} />
                 </div>
                 <span className="text-2xl font-bold tracking-tight text-slate-900">E-Konsulta®</span>
@@ -37,7 +37,7 @@ const PitchSection = () => (
                 <div>
                     <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6 text-slate-900">
                         Fast, Reliable, & <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-emerald-500">Human-Centric.</span>
+                        <span className="text-emerald-600">Human-Centric.</span>
                     </h1>
                     <p className="text-xl text-slate-600 leading-relaxed mb-8">
                         Delivering <strong>&lt;1-hour medical care</strong> nationwide across <strong>30+ specialties</strong>. Trusted by 50,000+ patients with over 1,000 5-star reviews.
@@ -226,24 +226,24 @@ const TacticsSection = () => (
                 <div className="lg:col-span-8">
                     <h3 className="text-lg font-bold text-slate-800 border-b border-slate-200 pb-2 mb-6">Expansion Tactics</h3>
                     <div className="grid md:grid-cols-3 gap-6">
-                        <div className="group bg-gradient-to-b from-white to-slate-50 hover:to-blue-50 p-6 rounded-2xl border border-slate-200 hover:border-blue-300 transition-all duration-300 shadow-sm hover:shadow-lg">
-                            <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <div className="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+                            <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-4">
                                 <Briefcase size={24} />
                             </div>
                             <h4 className="text-lg font-bold text-slate-900 mb-2">B2B2C</h4>
                             <p className="text-sm text-slate-600 leading-relaxed">Bulk recurring demand via ecosystem partners at <strong>near-zero CAC</strong></p>
                         </div>
 
-                        <div className="group bg-gradient-to-b from-white to-slate-50 hover:to-teal-50 p-6 rounded-2xl border border-slate-200 hover:border-teal-300 transition-all duration-300 shadow-sm hover:shadow-lg">
-                            <div className="w-12 h-12 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <div className="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+                            <div className="w-12 h-12 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center mb-4">
                                 <Zap size={24} />
                             </div>
                             <h4 className="text-lg font-bold text-slate-900 mb-2">Health Load</h4>
                             <p className="text-sm text-slate-600 leading-relaxed">Prepaid stored-value model. Improves <strong>retention</strong> and creates friction-less repeat booking experiences.</p>
                         </div>
 
-                        <div className="group bg-gradient-to-b from-white to-slate-50 hover:to-purple-50 p-6 rounded-2xl border border-slate-200 hover:border-purple-300 transition-all duration-300 shadow-sm hover:shadow-lg">
-                            <div className="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <div className="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+                            <div className="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-4">
                                 <MessageCircle size={24} />
                             </div>
                             <h4 className="text-lg font-bold text-slate-900 mb-2">Unlimited Text</h4>
@@ -257,7 +257,7 @@ const TacticsSection = () => (
 );
 
 const FundingSection = () => (
-    <section className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 py-20 px-6 flex flex-col justify-center">
+    <section className="min-h-screen bg-slate-900 py-20 px-6 flex flex-col justify-center">
         <div className="max-w-7xl mx-auto w-full">
             <div className="text-center mb-16">
                 <div className="inline-flex items-center gap-2 px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-bold uppercase tracking-wider mb-4">Investment Opportunity</div>
@@ -282,7 +282,7 @@ const FundingSection = () => (
                             <div className="text-sm text-slate-500 mb-1">Equity Stake</div>
                             <div className="text-3xl font-bold text-slate-900">10%</div>
                         </div>
-                        <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-4 rounded-xl border border-green-200">
+                        <div className="bg-green-50 p-4 rounded-xl border border-green-200">
                             <div className="text-sm text-green-700 mb-1">Pre-Money Valuation</div>
                             <div className="text-3xl font-bold text-green-700">₱50M</div>
                             <div className="text-xs text-green-600 mt-1">5M ARR × 10x Multiple</div>
@@ -298,7 +298,7 @@ const FundingSection = () => (
                         <h3 className="text-2xl font-bold text-slate-900">Valuation Target</h3>
                     </div>
                     <div className="space-y-4">
-                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-200">
+                        <div className="bg-blue-50 p-6 rounded-xl border border-blue-200">
                             <div className="text-sm text-blue-700 mb-2">18-Month Projection</div>
                             <div className="text-4xl font-bold text-blue-700 mb-2">10x Growth</div>
                             <div className="text-2xl font-semibold text-blue-600">₱500M Valuation</div>
@@ -320,7 +320,7 @@ const FundingSection = () => (
                     <h3 className="text-2xl font-bold text-slate-900">Capital Allocation</h3>
                 </div>
                 <div className="grid md:grid-cols-3 gap-6">
-                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200">
+                    <div className="bg-blue-50 p-6 rounded-xl border border-blue-200">
                         <div className="flex items-center justify-between mb-4">
                             <div className="text-sm font-semibold text-blue-700 uppercase tracking-wider">Marketing</div>
                             <div className="text-2xl font-bold text-blue-700">40%</div>
@@ -332,7 +332,7 @@ const FundingSection = () => (
                         <p className="text-sm text-blue-700 mt-3">Paid acquisition, content marketing, and brand building</p>
                     </div>
 
-                    <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 p-6 rounded-xl border border-indigo-200">
+                    <div className="bg-indigo-50 p-6 rounded-xl border border-indigo-200">
                         <div className="flex items-center justify-between mb-4">
                             <div className="text-sm font-semibold text-indigo-700 uppercase tracking-wider">Technology</div>
                             <div className="text-2xl font-bold text-indigo-700">40%</div>
@@ -344,7 +344,7 @@ const FundingSection = () => (
                         <p className="text-sm text-indigo-700 mt-3">Platform development, infrastructure, and automation</p>
                     </div>
 
-                    <div className="bg-gradient-to-br from-teal-50 to-teal-100 p-6 rounded-xl border border-teal-200">
+                    <div className="bg-teal-50 p-6 rounded-xl border border-teal-200">
                         <div className="flex items-center justify-between mb-4">
                             <div className="text-sm font-semibold text-teal-700 uppercase tracking-wider">Customer Support</div>
                             <div className="text-2xl font-bold text-teal-700">20%</div>

@@ -23,7 +23,7 @@ export default function HowItWorks() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-indigo-50 to-white py-20">
+      <section className="bg-brand-light py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">How It Works</h1>
           <p className="max-w-2xl mx-auto text-lg text-slate-600 leading-relaxed">
@@ -152,7 +152,7 @@ export default function HowItWorks() {
             href={WHATSAPP_LINK} 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="inline-flex items-center px-8 py-4 text-lg font-bold text-slate-900 transition-all duration-200 bg-emerald-400 rounded-full hover:bg-emerald-300 shadow-lg hover:shadow-emerald-400/20"
+            className="inline-flex items-center px-8 py-4 text-lg font-bold text-slate-900 transition-colors duration-200 bg-emerald-400 rounded-full hover:bg-emerald-300 shadow-lg"
           >
             <WhatsAppIcon className="w-6 h-6 mr-2" />
             Start Your Consultation

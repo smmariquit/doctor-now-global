@@ -24,7 +24,7 @@ const PitchSection = () => (
 
         <div className="max-w-7xl mx-auto px-6 py-20 relative z-10">
             <div className="flex items-center gap-2 mb-8">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-teal-500 rounded-lg flex items-center justify-center text-white">
+                <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white">
                     <Stethoscope size={24} />
                 </div>
                 <span className="text-2xl font-bold tracking-tight text-slate-900">E-Konsulta®</span>
@@ -34,7 +34,7 @@ const PitchSection = () => (
                 <div>
                     <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6 text-slate-900">
                         Fast, Reliable, & <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-emerald-500">Human-Centric.</span>
+                        <span className="text-emerald-600">Human-Centric.</span>
                     </h1>
                     <p className="text-xl text-slate-600 leading-relaxed mb-8">
                         Delivering <strong>&lt;1-hour medical care</strong> nationwide across <strong>30+ specialties</strong>. Trusted by 50,000+ patients with over 1,000 5-star reviews.
@@ -223,24 +223,24 @@ const TacticsSection = () => (
                 <div className="lg:col-span-8">
                     <h3 className="text-lg font-bold text-slate-800 border-b border-slate-200 pb-2 mb-6">Expansion Tactics</h3>
                     <div className="grid md:grid-cols-3 gap-6">
-                        <div className="group bg-gradient-to-b from-white to-slate-50 hover:to-blue-50 p-6 rounded-2xl border border-slate-200 hover:border-blue-300 transition-all duration-300 shadow-sm hover:shadow-lg">
-                            <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <div className="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+                            <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-4">
                                 <Briefcase size={24} />
                             </div>
                             <h4 className="text-lg font-bold text-slate-900 mb-2">Etere B2B2C</h4>
                             <p className="text-sm text-slate-600 leading-relaxed">Bulk recurring demand via ecosystem partners at <strong>near-zero CAC</strong>. Leveraging existing employee benefits structures.</p>
                         </div>
 
-                        <div className="group bg-gradient-to-b from-white to-slate-50 hover:to-teal-50 p-6 rounded-2xl border border-slate-200 hover:border-teal-300 transition-all duration-300 shadow-sm hover:shadow-lg">
-                            <div className="w-12 h-12 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <div className="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+                            <div className="w-12 h-12 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center mb-4">
                                 <Zap size={24} />
                             </div>
                             <h4 className="text-lg font-bold text-slate-900 mb-2">Health Load</h4>
                             <p className="text-sm text-slate-600 leading-relaxed">Prepaid stored-value model. Improves <strong>retention</strong> and creates friction-less repeat booking experiences.</p>
                         </div>
 
-                        <div className="group bg-gradient-to-b from-white to-slate-50 hover:to-purple-50 p-6 rounded-2xl border border-slate-200 hover:border-purple-300 transition-all duration-300 shadow-sm hover:shadow-lg">
-                            <div className="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <div className="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+                            <div className="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-4">
                                 <MessageCircle size={24} />
                             </div>
                             <h4 className="text-lg font-bold text-slate-900 mb-2">Unlimited Text</h4>

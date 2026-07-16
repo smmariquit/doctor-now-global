@@ -84,9 +84,9 @@ const okrData = [
 const groups = [...new Set(okrData.map((item) => item.group))];
 
 const Hero = () => (
-    <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white pb-20 pt-32 px-6 rounded-b-[3rem] shadow-xl relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-        <div className="absolute bottom-0 left-0 w-64 h-64 bg-teal-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
+    <div className="bg-slate-900 text-white pb-20 pt-32 px-6 rounded-b-[3rem] shadow-xl relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-teal-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
 
         <div className="max-w-6xl mx-auto text-center relative z-10">
             <div className="flex items-center justify-center gap-2 mb-6">
@@ -270,8 +270,8 @@ const Dashboard = () => {
                                 <button
                                     key={grp}
                                     onClick={() => setActiveTab(grp)}
-                                    className={`flex items-center gap-3 px-4 py-3 text-sm font-medium transition-all text-left border-l-4 ${
-                                        activeTab === grp ? 'bg-blue-50 text-blue-700 border-blue-500' : 'text-slate-600 hover:bg-slate-50 border-transparent hover:border-slate-300'
+                                    className={`flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors text-left border-l-4 ${
+                                        activeTab === grp ? 'bg-blue-50 text-blue-700 border-blue-500' : 'text-slate-600 hover:bg-slate-50 border-transparent'
                                     }`}
                                 >
                                     {getIconForGroup(grp)}

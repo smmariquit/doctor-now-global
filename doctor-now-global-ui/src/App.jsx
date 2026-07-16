@@ -87,7 +87,7 @@ export default function App() {
                 href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-5 py-2.5 border border-transparent text-sm font-medium rounded-full text-white bg-emerald-500 hover:bg-emerald-600 transition-all shadow-sm hover:shadow-md"
+                className="inline-flex items-center px-5 py-2.5 border border-transparent text-sm font-medium rounded-full text-white bg-emerald-500 hover:bg-emerald-600 transition-colors shadow-sm"
               >
                 Get Care Now
               </a>

@@ -27,7 +27,13 @@ export default function Home() {
   return (
     <>
       <section className="relative text-slate-900">
-        <div className="absolute inset-0 bg-[url('/hero-image.jpg')] bg-center bg-cover" aria-hidden="true"></div>
+        <img
+          src="/hero-image.jpg"
+          alt=""
+          fetchPriority="high"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          aria-hidden="true"
+        />
         <div className="absolute inset-0 bg-white/70"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
  <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-tight">Trusted Medical Care for Foreigners in the Philippines—In Minutes, Not Hours.</h1>
@@ -87,8 +93,8 @@ export default function Home() {
               { icon: <Microscope className="w-8 h-8" />, title: "Lab Requests", desc: "We generate the specific lab requests you need to get tested quickly." },
               { icon: <MessageCircle className="w-8 h-8" />, title: "Follow-up Care", desc: "Ongoing support for chronic conditions and health monitoring." }
             ].map((service, idx) => (
-              <div key={idx} className="group p-8 rounded-2xl bg-slate-50 hover:bg-white hover:shadow-xl border border-transparent hover:border-indigo-100 transition-all duration-300">
-                <div className="w-14 h-14 bg-white group-hover:bg-indigo-600 rounded-xl shadow-sm flex items-center justify-center text-indigo-600 group-hover:text-white transition-colors mb-6">{service.icon}</div>
+              <div key={idx} className="group p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-md transition-shadow duration-200">
+                <div className="w-14 h-14 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand-mid mb-6">{service.icon}</div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">{service.title}</h3>
                 <p className="text-slate-600">{service.desc}</p>
               </div>
@@ -152,7 +158,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-16">
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-emerald-500 rounded-full hover:bg-emerald-600 shadow-lg hover:shadow-xl hover:-translate-y-1">Start Consultation</a>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-4 text-lg font-bold text-white transition-colors duration-200 bg-emerald-500 rounded-full hover:bg-emerald-600 shadow-lg">Start Consultation</a>
           </div>
         </div>
       </section>
@@ -201,7 +207,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Your Doctor Is Just a Message Away</h2>
           <p className="text-xl text-slate-400 mb-10 font-light">Skip the queues. Skip the stress. Get fast, reliable care from English-speaking doctors.</p>
-          <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-4 text-lg font-bold text-slate-900 transition-all duration-200 bg-emerald-400 rounded-full hover:bg-emerald-300 shadow-lg hover:shadow-emerald-400/20">
+          <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-4 text-lg font-bold text-slate-900 transition-colors duration-200 bg-emerald-400 rounded-full hover:bg-emerald-300 shadow-lg">
             <WhatsAppIcon className="w-6 h-6 mr-2" />
             Connect Now
           </a>

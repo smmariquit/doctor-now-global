@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --dn-brand: #2563eb;
+  --dn-brand-light: #eef2ff;
+  --dn-brand-mid: #4f46e5;
+  --dn-brand-dark: #312e81;
+  --dn-accent: #10b981;
+  --dn-accent-hover: #059669;
+  --dn-surface: #f8fafc;
+  --dn-ink: #0f172a;
+}
